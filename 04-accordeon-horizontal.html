@@ -9,5 +9,15 @@
   </head>
   <body>
     <h1>Accordéon horizontal</h1>
+    <ul id="accordeon" x-data="{ouvert:1}">
+      <li :class="{actif:(ouvert === 1)}" @click="ouvert=1">
+        <figure>
+          <img src="src/img/image 1.jpg" alt="image pole nord 1" width="102">
+          <figcaption>
+            <h3>Lorem, ipsum dolor.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </figcaption>
+        </figure>
+      </li>
   </body>
 </html>

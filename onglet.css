@@ -1,0 +1,26 @@
+  #accordeon {
+      display: flex;
+      margin: 0;
+      padding: 0;
+  }
+
+  #accordeon li {
+      width: 107px;
+      overflow: hidden;
+      transition: width 0.5s;
+  }
+
+  #accordeon li.actif {
+      width: 317px;
+  }
+
+  #accordeon li figure {
+      display: flex;
+      width: 317px;
+      margin: 0;
+  }
+
+  #accordeon li figure figcaption {
+      padding: 10px;
+
+  }
