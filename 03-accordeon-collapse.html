@@ -24,5 +24,13 @@
            Aspernatur, animi. Iusto molestiae possimus nisi? Quam officiis maiores error dolorem praesentium fugit,
             eaque nobis cupiditate a explicabo perspiciatis sunt ratione repudiandae!</p>
       </section>
+      <section x-data="{
+            isOpen2:true,
+          }">
+        <button @click="isOpen2=! isOpen2">bouton 3</button>
+        <p x-show="isOpen2" x-collapse>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+           Voluptatibus architecto velit blanditiis dolorum, eveniet eius excepturi,
+          amet est quis laboriosam asperiores aperiam doloribus. Cum eaque nihil quidem. Maxime, corrupti sapiente!
+      </section>
   </body>
 </html>
