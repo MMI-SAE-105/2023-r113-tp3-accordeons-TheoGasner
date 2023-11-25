@@ -9,5 +9,18 @@
   </head>
   <body>
     <h1>Accordéon avec des booléens</h1>
+    <accordeon>
+      <section>
+        <div x-data="{ open: false}">
+          <button @clicl="open = ! open">bouton 1</button>
+          <span x-show="open" x-transition>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. In consectetur culpa doloribus veniam enim saepe mollitia
+              maiores natus ex rem ducimus quam vero, libero aspernatur nemo exercitationem, esse earum fugit.
+            </p>
+          </span>
+        </div>
+      </section>
+    </accordeon>
   </body>
 </html>
